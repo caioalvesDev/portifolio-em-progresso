@@ -3,6 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -16,7 +17,7 @@ body {
 
 .header-container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     min-width: 400px;
     background-color: #50E1E0;
     display: flex;
@@ -209,8 +210,9 @@ a:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    min-width: 400px;
+    margin: 0 auto;
     width: 90%;
+    min-width: 400px;
     
 }
 .card {
@@ -234,10 +236,11 @@ a:hover {
 
 .card-text {
     width: 40%;
-    padding: 10px;
+    padding: 15px;
     letter-spacing: 1px;
     min-inline-size: 400px;
     color: rgb(109, 109, 109);
+    margin-left: 20px;
 }
 
 .card-wrapper {
@@ -294,13 +297,14 @@ a:hover {
 }
 
 .footer {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: #60E1E0;
     display: flex;
     align-items: center;
     justify-content: center;
     color:  #1E1E2A;
+    min-width: 300px;
 
 }
        
