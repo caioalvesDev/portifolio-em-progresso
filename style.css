@@ -307,5 +307,26 @@ footer {
 
 }
        
- 
+ @media screen and (min-width: 0px) and (max-width: 600px){
+      
+
+    .container-titulo {
+        text-align: center;
+    }
+
+    .social-media {
+        
+        display: block;
+    }
+
+    .card-text {
+        text-align: justify;
+        margin: 0;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+     
+ }
 
