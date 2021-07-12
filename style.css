@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -23,7 +24,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 0 112px;
+    padding: 0 100px;
     position: relative;
 }
 
@@ -208,8 +209,8 @@ a:hover {
     flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
-    width: 90%;
-    min-width: 400px;
+    width: 100%;
+    
     
 }
 .card {
@@ -232,7 +233,7 @@ a:hover {
 }
 
 .card-text {
-    width: 40%;
+    width: 50%;
     padding: 20px;
     letter-spacing: 1px;
     min-inline-size: 400px;
@@ -309,13 +310,16 @@ a:hover {
 
 
 
+
        
  @media screen and (min-width: 0px) and (max-width: 600px){
      
     
+
     .header-container {
         height: 95vh;
     }
+
     .container-titulo {
         text-align: center;
     }
@@ -327,7 +331,7 @@ a:hover {
 
     .card-text {
         text-align: justify;
-        margin-left: 25px;
+        
     }
 
     .card {
@@ -337,12 +341,15 @@ a:hover {
         margin-bottom: 30px;
     } 
 
-    #master-container {
-        
+    .container {
+        margin: 0 auto;
     }
+
+    
 
     h2 {
         margin-bottom: 50px;
     }
  }
 
+ 
