@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-   <title>Portfólio</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
+   <title>{ Dev FullStack }</title>
 </head>
 <body>
     <div id="m-container">
@@ -19,15 +25,15 @@
                         <div class="trace"></div>
                         <div class="trace"></div>
                     </label>
-                    <div class="menu"></div>
+                    <div class="menu"></div> 
                         <nav class="menu-items">
                             <ul>
                                 <li>
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="Sobre/sobre.html" target="_blank">Sobre</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="# ">Projetos</a>
                                 </li>
@@ -37,9 +43,10 @@
             </div>
             
         </div>
+        
         <div class="container-titulo">
-            <h1>Caio Alves</h1>
-            <h2>Front-end developer</h2>
+            <h1>Caio <span class="roxo">Alves</span></h1>
+            <h3>Full-Stack developer</h3>
 
             <div class="social-media">
                 
@@ -48,10 +55,78 @@
                 <a href="https://github.com/caioalvesDev" target="_blank">Github</a>
 
             </div>
+            <div class="social-media">
+                
+              <a id="sobre-modal" href="#">Sobre Mim</a>
+
+              <a href="/download/currículo.pdf" download="caio-curriculo" target="_blank">Baixar Curriculo</a>
+
+          </div>
         </div>
     </header>
 
-    <section class='container'>
+    <dialog>
+      <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+
+      
+
+      <div class="header" >
+        <h1 class="title" >
+            Caio
+            <span class="roxo">Alves</span>
+        </h1>
+
+        <h2 class="sub">
+            Um desenvolvedor fora da caixa
+        </h2>
+
+        <p class="subscription">
+            Olá, Moro no Rio de janeiro, Brasil.
+            <br>
+            Estou Cursando Analise e Desenvolvimento de Sistemas - Estácio.
+              
+        </p>
+
+    </div>
+    <section class="container-skills">
+
+        <div class="skills">
+            <ul>
+                <p>FRONT-END</p>
+                <li>JAVASCRIPT</li>               
+                <li>REACT</li>
+                <li>VUE</li>
+                <li>BOOTSTRAP</li>               
+                <li>JQUERRY</li>               
+            </ul>
+        </div>
+
+        <div class="skills">
+            <ul>
+                <p>BANCO DE DADOS</p>
+                <li>Mysql</li>
+                <li>Postgree</li>
+                <li>MongoDB</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <ul>
+                <p>FRAMEWORKS</p>
+                <li>Javascript</li>
+                <li>PHP</li>
+                <li>HTML/CSS</li>
+                <li>Bootstrap</li>
+                
+
+            </ul>
+        </div>
+        
+    </section>
+    </dialog>
+
+
+    <!-- <section class='container'>
         <div class='card-container'>
              <div class="card">
                  <div class="card-wrapper">
@@ -59,11 +134,7 @@
                      <p>vem ver!</p>
                  </div>
              </div>
-             <!--
-             <div class="card-text">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate doloribus rem perspiciatis blanditiis modi enim optio? Debitis, porro! Perferendis nam dolorum beatae est accusantium.</p>
-             </div>
-            -->
+           
         </div>
 
         <div class='card-container'>
@@ -73,11 +144,7 @@
                     <p>vem ver!</p>
                 </div>
             </div>
-            <!--
-            <div class="card-text">
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate doloribus rem perspiciatis blanditiis modi enim optio? Debitis, porro! Perferendis nam dolorum beatae est accusantium.</p>
-            </div>
-            -->
+            
        </div>
 
        <div class='card-container'>
@@ -87,17 +154,217 @@
                 <p>vem ver!</p>
             </div>
         </div>
-        <!--
-            <div class="card-text">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate doloribus rem perspiciatis blanditiis modi enim optio? Debitis, porro! Perferendis nam dolorum beatae est accusantium.</p>
-            </div>-->
+     
         </div>      
-    </section>
+    </section> -->
+
+
+    <div id="projetos" class="container mt-5">
+      <!-- Start PHP section -->
+      <h2>PHP <span><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg" width="40" alt=""></span></h2>
+      <section id='javascript'class="row row-cols-1 row-cols-md-2 g-5 mb-5">
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/free-portfolio-web-design-5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Projeto Manda aí!</h5>
+              <p class="card-text">Projeto utilizando PHP e Biblioteca PHPMailer.</p>
+              
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Ver mais!
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">PROJETO</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Manda ai</h3>
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/RMnQq4z7fsg?controls=0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                      <p class="mt-2">Projeto de envio de email</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END Modal -->
+
+            </div>
+          </div>
+        </div>
+         <!-- END PHP section -->
+         <div class="col">
+          <div class="card h-100 ">
+            <img src="img/free-portfolio-web-design-5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Projeto Crud simples!</h5>
+              <p class="card-text">Projeto Crud simples utilizando JSON.</p>
+              
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Ver mais!
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Projeto Travel</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Projeto PHP</h3>
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/RMnQq4z7fsg?controls=0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ea blanditiis omnis unde fugit
+                        obcaecati numquam tempora aliquid suscipit alias doloribus dolores, cupiditate ipsum nihil modi
+                        necessitatibus, aliquam totam facilis!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END Modal -->
+
+            </div>
+          </div>
+        </div>
+         
+
+        <div class="col">
+          <div class="card h-100 ">
+            <img src="img/free-portfolio-web-design-5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Projeto sup-desk</h5>
+              <p class="card-text"> Projeto sup-desk.</p>
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Ver mais!
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Projeto Travel</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Projeto PHP</h3>
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/RMnQq4z7fsg?controls=0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ea blanditiis omnis unde fugit
+                        obcaecati numquam tempora aliquid suscipit alias doloribus dolores, cupiditate ipsum nihil modi
+                        necessitatibus, aliquam totam facilis!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END Modal -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+          <h2>JavaScript <span><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width="30" alt=""></span></h2>
+          <section id='javascript'class="row row-cols-1 row-cols-md-2 g-5 mb-5">
+            <div class="col">
+              <div class="card h-100 ">
+                <img src="img/free-portfolio-web-design-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Projeto Send Email</h5>
+                  <p class="card-text">Projento utilizando PHP e PHPMailer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 ">
+                <img src="img/free-portfolio-web-design-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <h2>VueJs <span><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" width="30" alt=""></span></h2>
+          <section id='javascript'class="row row-cols-1 row-cols-md-2 g-5 mb-5">
+            <div class="col">
+              <div class="card h-100 ">
+                <img src="img/free-portfolio-web-design-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Projeto Send Email</h5>
+                  <p class="card-text">Projento utilizando PHP e PHPMailer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 ">
+                <img src="img/free-portfolio-web-design-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <h2>NodeJs <span><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="30" alt=""></span></h2>
+          <section id='javascript'class="row row-cols-1 row-cols-md-2 g-5 mb-5">
+            <div class="col">
+              <div class="card h-100 ">
+                <img src="img/free-portfolio-web-design-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Projeto Send Email</h5>
+                  <p class="card-text">Projento utilizando PHP e PHPMailer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 ">
+                <img src="img/free-portfolio-web-design-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
     </div>
 
     <footer class="footer">
-        <p>Feito Por Caio Alves</p>
+        <<span>Caio </span>  <span> Alves</span> /> </p>
     </footer>
-    
+    <script src="javascript.js"></script>
+
+    <script src="/javascript.js"></script>
 </body>
 </html>

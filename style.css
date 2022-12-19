@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    color: #1E1E2A;
+    background-color: rgb(206, 202, 202);
     
 }
 
@@ -17,7 +17,7 @@ body {
 .header-container {
     height: 100vh;
     width: 100%;  
-    background-color: #50E1E0;
+    background-color: rgb(15, 15, 34);
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -32,13 +32,24 @@ h1 {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    
 }
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
+
+}
+.roxo {
+    color: rgb(139, 40, 231);
 }
 
+.container-titulo h1{
+    color: rgb(206, 202, 202);
+}
+.container-titulo h3{
+    color: rgb(139, 40, 231);
+}
 .social-media {
     margin-top: 1rem;
     display: flex;
@@ -46,11 +57,13 @@ h2 {
     align-items: center;
 }
 
+
+
 .social-media a {
     text-decoration: none;
-    color: #1E1E2A;
+    color: rgb(206, 202, 202);
     padding: 1rem 4rem;
-    border: 1px solid #1E1E2A;
+    border: 1px solid rgb(206, 202, 202);
     min-width: 4rem;
     display: flex;
     align-items: center;
@@ -58,9 +71,9 @@ h2 {
     transition: .5s ease-in-out;
 }
 
-a:hover {
-    background-color: #ffffff;
-
+.social-media a:hover {
+    background-color: rgb(139, 40, 231);
+    color: rgb(206, 202, 202);
 }
 
 /* MENU HAMBURGUER */
@@ -88,7 +101,7 @@ a:hover {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: #1E1E2A;
+    background-color: rgb(206, 202, 202);
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -123,7 +136,7 @@ a:hover {
     height: 4px;
     width: 10px;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px #ffffff;
+    box-shadow: 0px 0px 0px 0px rgb(206, 202, 202);
     z-index: -1;
     transition:  400ms ease-in-out 0s;
 }
@@ -178,6 +191,7 @@ a:hover {
 
 }
 
+
 #toggle:checked + .checkbox {
     background-color: #ffffff;
 }
@@ -192,18 +206,31 @@ a:hover {
     opacity: 1;
 }
 
+#projetos h2:nth-of-type(1) {
+    color: rgb(97, 129, 182);
+}
+#projetos h2:nth-of-type(2) {
+    color: rgb(240, 219, 79);
+}
+#projetos h2:nth-of-type(3) {
+    color: rgb(65, 184, 131);
+}
+#projetos h2:nth-of-type(4) {
+    color: rgb(131, 205, 41);
+}
+
 /* CARDS */
 
-.container {
+/* .container {
     height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin: 3rem 0;
-}
+} */
 
-.card-container {
+/* .card-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -212,8 +239,8 @@ a:hover {
     width: 100%;
     
     
-}
-.card {
+} */
+/* .card {
     width: 300px;
     height: 300px;
     border-radius: 100%;
@@ -230,18 +257,18 @@ a:hover {
     color: #1E1E2A;
     cursor: pointer;
     transition: 0.5s ease-in-out;
-}
+} */
 
-.card-text {
+/* .card-text {
     width: 50%;
     padding: 20px;
     letter-spacing: 1px;
     min-inline-size: 400px;
     color: rgb(109, 109, 109);
    
-}
+} */
 
-.card-wrapper {
+/* .card-wrapper {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -292,24 +319,122 @@ a:hover {
     opacity: 1;
     visibility: visible;
     font-size: 14px;
-}
+} */
 /* Fim Card*/
 
 .footer {
     width: 100%;
     height: 100px;
-    background-color: #60E1E0;
+    background-color: rgb(15, 15, 34);
     display: flex;
     align-items: center;
     justify-content: center;
-    color:  #1E1E2A;
+    font-size: 1.2rem;
+    color:  rgb(206, 202, 202);
     
 
 }
 
+footer > span:nth-child(1){
+    color:  rgb(206, 202, 202);
+}
+footer > span:nth-child(2){
+    color: rgb(139, 40, 231);
+}
+
+
+
 #m-container {
     width: 100%;
+    background-color: #F2F2F2;
 }
+
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 /.8);  
+}
+
+dialog{
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem rgb(0 0 0/.3);
+    width: 80%;
+    background-color: rgb(15, 15, 34);
+    color: #F2F2F2;
+    height: 70vh;
+}
+
+
+dialog .header {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+dialog[type='button']{
+    font-size: 40px;
+}
+
+dialog .roxo {
+    color: rgb(139, 40, 231);
+}
+
+dialog .title {
+    font-size: 4rem;
+    line-height: 1.15;
+    color: rgb(206, 202, 202);
+}
+dialog .sub {
+    color: rgb(139, 40, 231);
+    margin-top: -10px;
+    margin-bottom: 40px;
+    font-size: 140%;
+    
+}
+dialog .subscription {
+    color: rgb(216, 210, 210);
+    font-size: 20px;
+}
+dialog .container-skills {
+    padding-top: 3rem;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    color: rgb(206, 202, 202);
+
+}
+
+dialog .container-skills p {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: rgb(139, 40, 231);
+}
+dialog .skills {
+    text-align: left;
+    border: 3px solid rgb(139, 40, 231);
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+dialog .skills ul {
+    padding: 5px;
+    margin-left: 5px;
+}
+dialog .skills ul li {
+    font-size: 130%;
+    margin-bottom: 10px;
+
+}
+
+
+
+
 
 
 
@@ -331,6 +456,7 @@ a:hover {
         text-align: center;
         justify-content: center;
     }
+   
 
     .social-media {
         
