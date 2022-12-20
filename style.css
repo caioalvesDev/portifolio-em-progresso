@@ -401,7 +401,7 @@ dialog .container-skills {
     max-width: 1000px;
     display: flex;
     justify-content:space-evenly;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     color: rgb(206, 202, 202);
 
 }
@@ -417,10 +417,10 @@ dialog .skills {
     text-align: left;
     border: 3px solid rgb(139, 40, 231);
     margin: 1rem;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 30%;
+    height: auto;
 }
 dialog .skills ul {
     padding: 5px;
@@ -429,7 +429,18 @@ dialog .skills ul {
 dialog .skills ul li {
     font-size: 130%;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
 
+}
+dialog .skills ul p {
+    border-bottom: 3px solid rgb(139, 40, 231);
+    width: auto;
+}
+
+.btn-dark{
+    background-color: rgb(139, 40, 231);
 }
 
 
@@ -440,7 +451,7 @@ dialog .skills ul li {
 
 
        
- @media screen and (min-width: 0px) and (max-width: 600px){
+ @media screen and (min-width: 0px) and (max-width: 908px){
      
     
 
@@ -483,6 +494,18 @@ dialog .skills ul li {
 
     h2 {
         margin-bottom: 50px;
+    }
+
+    dialog .container-skills{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    dialog .skills {
+        display: flex;
+        justify-content: center;
+        width: auto;
     }
  }
 
