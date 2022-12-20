@@ -11,3 +11,4 @@ open_modal.addEventListener('click', (e) => {
 close_modal.onclick = () => {
     modal.close()
 }
+
