@@ -47,9 +47,7 @@ h2 {
 .container-titulo h1{
     color: rgb(206, 202, 202);
 }
-.container-titulo h3{
-    color: rgb(139, 40, 231);
-}
+
 .social-media {
     margin-top: 1rem;
     display: flex;
@@ -389,6 +387,13 @@ dialog .sub {
     margin-top: -10px;
     margin-bottom: 40px;
     font-size: 140%;
+    font-family: monospace;
+    border-right: 4px solid;
+    display: inline-block;
+    width: 40ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2.5s steps(40), blinking 0.5s infinite step-end alternate;
     
 }
 dialog .subscription {
@@ -441,6 +446,29 @@ dialog .skills ul p {
 
 .btn-dark{
     background-color: rgb(139, 40, 231);
+}
+.container-titulo h3{
+    color: rgb(139, 40, 231);
+    font-family: monospace;
+    border-right: 4px solid;
+    display: inline-block;
+    width: 20ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20), blinking 0.5s infinite step-end alternate;
+
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
 }
 
 

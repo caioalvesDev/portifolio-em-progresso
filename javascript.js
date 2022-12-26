@@ -10,3 +10,13 @@ close_modal.addEventListener('click', (e) => {
     modal.close()
 })
 
+const devTitle = '{ Full-stack }'.toUpperCase();
+const devtitleAlt = '< caio alves />'.toUpperCase();
+let trigger = false;
+
+setInterval( () => {
+    document.title = trigger ? devTitle : devtitleAlt;
+    trigger = !trigger
+}, 5000)
+
+document.link
